@@ -5,25 +5,25 @@ cells.forEach(cell => {
 
 	if(cell.cellIndex == 0){
 		
-		window.parent.location = "../weird/showcase.html";
+		window.parent.location = "../showcase.html";
 		
 	}
 	
 	if(cell.cellIndex == 1){
 		
-		window.parent.location = "../weird/index.html";
+		window.parent.location = "../index.html";
 		
 	}
 	
 	if(cell.cellIndex == 2){
 		
-		window.parent.location = "../weird/contact.html";
+		window.parent.location = "../contact.html";
 		
 	}
 	
 	if(cell.cellIndex == 3){
 		
-		window.parent.location = "../weird/partner.html";
+		window.parent.location = "../partner.html";
 		
 	}
 	
