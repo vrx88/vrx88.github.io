@@ -1,0 +1,20 @@
+body{
+
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+@keyframes spacing{
+	
+	from {letter-spacing: 10px; font-size: 100px;}
+	to {letter-spacing: normal; font-size: 70px; display: none:}
+}
+
+#showcase{
+	
+	animation: spacing 1s;
+	
+}
+

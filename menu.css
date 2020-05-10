@@ -1,0 +1,41 @@
+body{
+
+	margin: 0px;
+	padding: px;
+}
+
+table{
+	
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+#navItem{
+
+	padding: 1%;
+	text-align: center;
+	font-size: 17.5vh;
+	font-weight: bold;
+	transition: background-color 0.5s linear;
+	
+}
+
+#navItem:hover{
+	
+	background-color: rgb(255,0,0);
+	cursor: pointer;
+	
+}
+
+@media only screen and (max-width : 600px) {
+	
+	#navItem{
+
+		font-size: 5.5vw;
+		
+	}
+	
+}

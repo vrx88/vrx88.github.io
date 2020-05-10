@@ -1,0 +1,83 @@
+body{
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+#lbl{
+	
+	font-size: 5vh;
+	
+}
+
+#fontsize{
+	
+	font-size: 3vw;
+	
+}
+
+#text{
+	
+	background-color: rgb(64, 64, 64);
+	font-size: 2.5vw;
+	
+}
+
+#btn{	
+	
+	display: inline-block;
+	margin: 0px;
+	margin-top: 2.5%;
+	padding: 0px;
+	text-align: center;
+	width: 20%;
+
+}
+
+#btn:active #text{
+	
+	transform: scale(0.85); 
+	
+}
+
+
+@media only screen and (max-width : 600px) {
+	
+	#lbl{
+		
+		font-size: 5vw;
+		
+	}
+	
+	#fontsize{
+	
+		font-size: 7.5vw;
+	
+	}	
+	
+	#text{
+	
+	background-color: rgb(64, 64, 64);
+	font-size: 6vw;
+	
+	}
+	
+	#btn{	
+		
+		display: inline-block;
+		margin: 0px;
+		margin-top: 2.5%;
+		padding: 0px;
+		text-align: center;
+		font-size: 5vw;
+		width: 25%;
+
+	}
+
+	#btn:active #text{
+		
+		transform: scale(0.85); 
+		
+	}
+}
